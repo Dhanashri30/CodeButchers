@@ -1,0 +1,29 @@
+
+#parent{
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#parent1{
+	padding-top: 150px;
+	text-align: center;
+	background-color: #e6eeff;
+    height:200px;
+    width:500px;
+}
+#parent2{
+	padding-top: 30px;
+	text-align: center;
+	background-color: #b3ffb3;
+    height:280px;
+    width:500px;
+}
+#btn{
+	align-self: center;
+	padding-top: 30px;
+	background-color: #ffd9b3;
+    height:40px;
+    width:500px; 
+}

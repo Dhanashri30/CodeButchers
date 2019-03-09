@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Score
+	</title>
+	<link rel="stylesheet" type="text/css" href="/Users/manidharmulagapaka/PycharmProjects/untitled3/templates/codie.css">
+    <script>
+    function buttonClicked()
+    {
+        fetch("/exe").then((data) => {
+            console.log(data);
+        })
+    }
+</script>
+</head>
+<body>
+	<div id="parent">
+	<form role="form" method="POST" action="/">
+		<div id="parent1">
+			<legend>Education Score :</legend> 
+			<br>
+			<div>
+			10th : 
+			<input type="number" name="score" min="0" max="100">
+			</div>
+			<br>
+			<div>
+			12th : 
+			<input type="number" name="score" min="0" max="100">
+			</div>
+			<br>
+			<div>
+			UG : 
+			<input type="number" name="score" min="0" max="100">
+			</div>
+			<br>
+			<div>
+			PG : 
+			<input type="number" name="score" min="0" max="100">
+			</div>
+		</div>
+		<div id="parent2">
+			<legend>Skill Set :</legend>
+			<br>
+			<div>
+				Primary Skills :
+				<textarea name="PrimarySkill" rows="7" cols="60" placeholder="e.g Java, Python"></textarea>
+				Secondary Skills :
+				<textarea name="SecondarySkill" rows="7" cols="60" placeholder="e.g Java, Python"></textarea><br>
+			</div>
+		</div>
+		<div id="btn">
+			<button onclick="buttonClicked()">SUBMIT</button>
+		</div>
+	</form>
+	</div>
+</body>
+</html>
