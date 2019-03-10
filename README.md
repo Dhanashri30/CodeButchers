@@ -1,3 +1,3 @@
 # CodeButchers
 
-Run sample.py file and when prompted enter resume directory location.
+Run Sample.py file and when prompted enter resume directory location.
